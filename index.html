@@ -14,6 +14,77 @@
 
 <body>
 
+    <!-- navbar templates from bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="icons/icon_navbar.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            </a>
+            <a class="navbar-brand" href="#">MyPlanner</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tasks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <img src="icons/bell.png" alt="Logo" width="28" height="24" class="d-inline-block align-text-top">
+            </span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- content with tasks -->
+    <div class="weekly">
+        <h3>Weekly Tasks</h3>
+        <span class="text-end sortby">Sort by priority: <span id="sort"><img src="icons/sort.png" alt="" width="20" height="20"></span></span>
+    </div>
+
+    <div class="content">
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1" id="demo"></div>
+    </div>
+
+
+
+
+
+    <!-- footer styled in css -->
+
+    <footer>
+        <div class="sm_icons ">
+            <a class="icon_left" target="_blank" href="">
+                <img src="icons/instagram.png" width="25" height="25"></a>
+            <a class="icon_center" target="_blank" href="">
+                <img src="icons/facebook.png" width="25" height="25"></a>
+            <a class="icon_right" target="_blank" href="">
+                <img src="icons/youtube.png" width="25" height="25"></a>
+        </div>
+
+
+        <div class="subscribe text-center ">
+            <form>
+                <div>
+                    Sign up for our newsletter</span>&nbsp;
+                    <input type="email" placeholder="youremail@gmail.com">
+                    <button type="submit" class="btn text-white border-4">Subscribe</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="copyrights text-center">
+            <p>2022 Copyright&nbsp;<span>&#169;</span>&nbsp;: Viktoria</p>
+        </div>
+    </footer>
 
 
     <script src="data.json"></script>

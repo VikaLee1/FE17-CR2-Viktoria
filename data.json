@@ -1,0 +1,66 @@
+let tasks = `
+[{
+    "taskName":"Study",
+    "image":"study.webp",
+    "description":"revise the material and complete a project",
+    "duration": "5 to 7 hours",
+    "importance":0
+},
+{
+    "taskName":"Household chores",
+    "image":"household.jpg",
+    "description":"do the laundries and ironing, and cleaning the apaprtment and watering plants",
+    "duration": "3 hours",
+    "importance":0
+},
+{
+    "taskName":"Reading",
+    "image":"reading.jpg",
+    "description":"finish the book",
+    "duration": "2 Hours",
+    "importance":0
+},
+{
+    "taskName":"Workout",
+    "image":"workout.jpg",
+    "description":"yoga class at the studio",
+    "duration": "90 Minutes",
+    "importance":0
+},
+{
+    "taskName":"Meal Prep",
+    "image":"mealPrep.jpg",
+    "description":"try out a new recipe",
+    "duration": "1 hour",
+    "importance":0
+},
+{
+    "taskName":"Cinema",
+    "image":"cinema.jpg",
+    "description":"check out a new movie with a friend",
+    "duration": "2 hours",
+    "importance":0
+},
+{
+    "taskName":"Plan a trip",
+    "image":"trip.jpg",
+    "description":"look for ideas for upcoming holidays",
+    "duration": "2 hours",
+    "importance":0
+},
+{
+    "taskName":"Hiking",
+    "image":"hiking.webp",
+    "description":"organize a hiking day-tour with friends",
+    "duration": "5 hours",
+    "importance":0
+},
+{
+    "taskName":"CV",
+    "image":"cv.png",
+    "description":"refresh a CV",
+    "duration": "2 hours",
+    "importance":0
+}
+]
+`
