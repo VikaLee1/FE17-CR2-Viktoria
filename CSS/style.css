@@ -1,11 +1,35 @@
+/*  backrgound picture and text-overlay */
+
+.background_box {
+    background-image: url("../images/Screenshot\ 2022-10-01\ at\ 10.13.41.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+}
+
+.text-overlay {
+    position: absolute;
+    padding: 1rem;
+    margin-top: -40px;
+    margin-left: -40px;
+    font-weight: 400;
+    backdrop-filter: brightness(90%);
+}
+
+
+/* formatting the style of a card */
+
 .card-img-center {
     width: 100%;
     height: 230px;
 }
 
 .resize {
-    height: 200px;
+    height: 90px;
 }
+
+
+/* footer style */
 
 footer {
     background-color: black;
@@ -20,6 +44,9 @@ footer {
     justify-content: center;
     padding: 10px;
 }
+
+
+/* formatting the main content */
 
 h3 {
     padding-top: 10px;

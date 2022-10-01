@@ -14,13 +14,14 @@ function updateHTML() {
                 <div class="resize"> 
                      <h5 class="card-title text-center">${plan.taskName}</h5>
                         <p class="card-text text-center">${plan.description}</p>
+                        </div>
                         <hr>
                        
                         <p class="card-text"><img src="icons/alert.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top">Priority level:
-                        <span class="priority_level">${plan.importance}</span></p>
+                        <span class="priority_level text-white bg-success "><strong> ${plan.importance} </strong></span></p>
                         <input type="submit" value="Priority" class="btn btn-primary priority_btn">
                        
-                        </div>
+                        
                          <hr>
                         <a href="#" class="btn btn-danger">
                      <img src="icons/delete.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top">
@@ -64,3 +65,51 @@ function sortByPriority() {
     updateHTML();
     addEvent();
 }
+
+
+// step 6 - change color according to the priority
+
+// function changeColor() {
+//     let important = document.getElementsByClassName("priority_btn").value;
+//     let score = 0;
+//     if (score < 2) {
+//         important.style.backgroundColor = "bg-success";
+//     } else if (score >= 2 & score < 4) {
+//         important.style.backgroundColor = "bg-warning";
+//     } else {
+//         important.style.backgroundColor = "bg-danger";
+//     }
+// }
+
+
+// const changeColor = document.querySelector(".priority_btn")
+// for (let i = 0; i < changeColor.length; i++) {
+//     changeColor[i].addEventListener("click", function() {
+//         click(i)
+//     })
+// }
+
+// function click(index) {
+//     console.log(index)
+//     if (plans[index].importance < 2) {
+//         important.style.backgroundColor = "bg-success";
+//     } else if (plans[index].importance >= 2 & plans[index].importance < 4) {
+//         important.style.backgroundColor = "bg-warning";
+//     } else {
+//         important.style.backgroundColor = "bg-danger";
+//     }
+// }
+
+
+// function changeColor() {
+//     let important = document.getElementsByClassName("priority_btn").value;
+//     let score = 0;
+//     if (score < 2) {
+//         important.style.backgroundColor = "bg-success";
+//     } else if (score >= 2 & score < 4) {
+//         important.style.backgroundColor = "bg-warning";
+//     } else {
+//         important.style.backgroundColor = "bg-danger";
+//     }
+// }
+// document.querySelector(".priority_level").addEventListener(changeColor);
