@@ -7,7 +7,7 @@ function updateHTML() {
     for (let plan of plans) {
         document.querySelector("#demo").innerHTML +=
             `
-        <div class="card shadow-lg p-3 mb-5 bg-body rounded" style="width: 18rem;">
+        <div class="card shadow-lg p-3 mb-5 bg-body rounded deleteTask" style="width: 18rem;">
         <input type="submit" value="Task" class="btn btn-info text-white task"> 
         <img src="images/${plan.image}" class="card-img-center" alt="...">
                 <div class="card-body ">
@@ -23,7 +23,7 @@ function updateHTML() {
                        
                         
                          <hr>
-                        <a href="#" class="btn btn-danger">
+                        <a href="#" class="btn btn-danger dissapear delete_btn">
                      <img src="icons/delete.png" alt="Logo" width="20" height="20" class="d-inline-block align-text-top">
                      Delete</a>
                      <a href="#" class="btn btn-success">
